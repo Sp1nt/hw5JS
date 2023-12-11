@@ -5,10 +5,10 @@ function Car(manufacturer, model, year, average_speed) {
     this.average_speed = average_speed;
 
     this.show = function () {
-        console.log("Manufacturer: " + this.manufacturer);
-        console.log("Model: " + this.model);
-        console.log("Year: " + this.year);
-        console.log("Average speed: " + this.average_speed);
+        console.log(`Manufacturer: ${this.manufacturer}`);
+        console.log(`Model: ${this.model}`);
+        console.log(`Year: ${this.year}`);
+        console.log(`Average speed: ${this.average_speed}`);
     }
 
     this.timeCalculation = function (distance) {
